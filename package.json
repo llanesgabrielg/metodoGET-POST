@@ -1,0 +1,23 @@
+{
+  "name": "metodoget-post",
+  "version": "1.0.0",
+  "description": "servidor con dos endpoint uno con metodo get y otro post",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llanesgabrielg/metodoGET-POST.git"
+  },
+  "author": "gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llanesgabrielg/metodoGET-POST/issues"
+  },
+  "homepage": "https://github.com/llanesgabrielg/metodoGET-POST#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
