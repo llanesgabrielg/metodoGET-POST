@@ -5,7 +5,8 @@ const app = express();
 //middleware
 // procesos en el medio, body parser , decodifica lo que llega del formulario , lo transforma en un objeto y lo deja disponible en el objeto body
 app.use(express.urlencoded({extended:true}));
-
+// indicarle al servidor donde estan nuestros recursos estaticos (css,img,scripts...)
+app.use(express.static(__dirname)); 
 //endPoint
 app.get('/', function (req, res) {
   res.sendFile(path.resolve(__dirname, "index.html"));

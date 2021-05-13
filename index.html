@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>login</title>
 </head>
 
 <body>
-    <form action="/saludar" method="post">
+    <form action="/saludar" method="post" class="form-box">
         <fieldset>
-            <legend>Ingresa tus Datos:</legend>
-            <input type="text" name="name" id="fname" placeholder="nombre">
-            <input type="text" name="lastName" id="lname" placeholder="apellido">
-            <input type="text" name="nickName" id="nick" placeholder="apodo">
-            <input type="submit" value="enviar">
+            <h1 class="form-title">Ingresa tus Datos:</h1>
+            <input class="input-text" type="text" name="name" id="fname" placeholder="nombre">
+            <input class="input-text" type="text" name="lastName" id="lname" placeholder="apellido">
+            <input class="input-text" type="text" name="nickName" id="nick" placeholder="apodo">
+            <input class="input-submit" type="submit" value="enviar">
         </fieldset>
     </form>
 </body>
